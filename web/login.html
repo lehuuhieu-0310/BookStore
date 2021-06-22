@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+        <title>JSP Page</title>
+         <!--reCAPTCHA with Auto language--> 
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+    </head>
+    <body>
+        <div class="container" style="text-align: center">
+            <h1>Login Page</h1>
+            <hr>
+            <form action="MainController" method="POST" class="form-group">
+                <table style="margin: auto">
+                    <tr>
+                        <td>Username: </td>
+                        <td><input type="text" name="txtUsername" class="form-control"/></td>
+                    </tr>
+                    <tr>
+                        <td>Password: </td>
+                        <td><input type="password" name="txtPassword" class="form-control"/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><div class="g-recaptcha" data-sitekey="6LdlboMaAAAAAPT3EZhDaMsPMhLL07SDAdHvBcTL"/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" name="action" value="Login" class="btn btn-primary"/></td>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
+
