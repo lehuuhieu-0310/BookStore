@@ -11,7 +11,10 @@ package reCaptcha;
  */
 public class Constants {
 
-    public static final String SITE_KEY = "6LdlboMaAAAAAPT3EZhDaMsPMhLL07SDAdHvBcTL";
-
-    public static final String SECRET_KEY = "6LdlboMaAAAAALcSuDkd73UhKnJoDVnmqvEA2KEQ";
+    //fill site key
+    public static final String SITE_KEY = "SITE_KEY";
+    
+    //fill secret key
+    public static final String SECRET_KEY = "SECRET_KEY";
+    
 }
